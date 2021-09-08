@@ -1,0 +1,174 @@
+*{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+body{
+
+    margin:0px;
+}
+
+header{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left:20%;
+    align-content: center;
+    
+
+}
+
+
+header img{
+
+        width:40px;
+        vertical-align:center;
+        margin-top: 60%;
+        
+        
+        
+}
+
+header h1{
+
+    margin-left: 25%
+
+}
+
+.menu{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    list-style: none;
+    background-color:grey;
+    color: white;
+    padding: 1%;
+
+}
+
+
+
+.menu li{
+
+    margin-right: 2%;
+    
+
+
+}
+
+main{
+
+    display:flex;
+    flex-direction: row;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    
+}
+
+main .product{
+    flex:1;
+    padding: 1%;
+    margin: 0 15px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.product p{
+
+    text-align: center;
+
+}
+
+.social{
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    list-style: none;
+    justify-content:space-around
+
+}
+
+.social ul{
+
+
+}
+
+/*div{
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.leftSection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+    /*
+    
+        flex-start(left)
+        center
+        flex-end (right)
+        space-around
+        space-between
+        space-evenly
+    
+    
+    
+    */
+/*
+}
+
+.item1{
+
+    flex:1 ;
+
+}
+
+
+.item2{
+
+    flex:2 ;
+
+}
+
+
+.item3{
+
+    flex:3 ;
+
+}
+
+.rightSection{
+    display:flex;
+    flex-direction: column;
+    align-items:left;
+    justify-content: right;
+    flex: 1;
+}
+
+
+.mainContainer{
+    display:flex;
+    flex-direction: row;
+
+
+}
+
+
+/*
+display
+flex-direction
+justify-content
+flex
+align-items
+align-self
+*/
